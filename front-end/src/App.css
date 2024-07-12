@@ -1,0 +1,118 @@
+/* This file styles the entire web app with different types of buttons and 
+other elements. */
+
+.App {
+  text-align: center;
+  padding: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.page-title{
+  text-shadow: 0px 5px 10px rgb(181, 181, 181);
+  margin-bottom: 30px;
+}
+
+input, select, button {
+  padding: 10px;
+}
+
+.input {
+  margin: 10px;
+  border: 0px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+}
+
+.input:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.select {
+  margin: 10px;
+  border: 0px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+}
+
+.select:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.button {
+  margin: 10px;
+  border: 0px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.img {
+ height: 100px;
+ max-width: fit-content;
+}
+
+.result {
+  background-color: rgb(244, 244, 244);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.fav-result {
+  background-color: rgb(244, 233, 239);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: center;
+}
+
+.favourite {
+  border: 0px;
+  box-shadow: 1px 1px 15px #c9c9c9;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.favourite:hover {
+  background-color: rgb(237, 166, 205);
+}
+
+.delete {
+  border: 0px;
+  box-shadow: 1px 1px 15px #c9c9c9;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+}
+
+.delete:hover {
+  background-color: rgb(152, 152, 152);
+}
+
+.fav-icon {
+  height: 25px;
+}
+
+.divide {
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.result-info {
+  text-align: left;
+  margin-top: 10px;
+}
