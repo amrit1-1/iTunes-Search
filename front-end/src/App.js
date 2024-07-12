@@ -16,8 +16,9 @@ const App = () => {
   const [favourites, setFavourites] = useState([]);
 
   // Generates a token when application first loads
+  // Replace URL with localhost URL if running on local device
   const getToken = async () => {
-    const response = await axios.get('http://localhost:5002/api/token');
+    const response = await axios.get('https://itunes-search-backend.onrender.com/api/token'); 
     setToken(response.data.token);
   };
 
@@ -26,9 +27,10 @@ const App = () => {
   }, []);
 
   // Function that grabs the search term from user input, media type from the selection, and responds with the relevant results.
+  // Replace URL localhost url if running on local device
   const handleSearch = async () => {
     if (!token) return;
-    const response = await axios.get('http://localhost:5002/api/search', {
+    const response = await axios.get('https://itunes-search-backend.onrender.com/api/search', {
         headers: {
             Authorization: `Bearer ${token}`
         },
